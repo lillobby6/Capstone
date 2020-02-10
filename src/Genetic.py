@@ -102,7 +102,7 @@ def mate(word1: str, word2: str):
             name += word1[i]
         else:
             name += word2[i]
-    name = mutate4(name, 2)
+    name = mutate2(name, 2)
     # num = random.randint(0, 1)
     # if num == 0: #mutate v2
     #     for i in range(len(word1)):
